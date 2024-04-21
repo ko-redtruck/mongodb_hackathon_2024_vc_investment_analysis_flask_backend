@@ -4,7 +4,7 @@ from pymongo import MongoClient
 import numpy as np
 from flask_cors import CORS
 
-app = Flask(__name__, port=8080)
+app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
 ATLAS_URI = "mongodb+srv://kettererkonstantin:7GNfXDPi9Z5SpOyP@hackathon0.1wyzy.mongodb.net/?retryWrites=true&w=majority&appName=hackathon0"
